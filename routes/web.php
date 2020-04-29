@@ -14,3 +14,11 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+// 测试获取淘宝的数据列表
+Route::get('test', 'TestController@index')->name('t.index');
+Route::get('getListData', 'TestController@getListData')->name('t.getListData');
