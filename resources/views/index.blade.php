@@ -92,32 +92,29 @@
                 </div>
             </div>
         </div>
-        <div class="part-two">
-            {{-- 按钮 --}}
-            <div class="tab-item">
+        <div class="part-two" id="part-two">
 
-            </div>
             {{-- 数据列表 --}}
-            <div class="data-item">
-                {{-- 表格 --}}
+            {{--<div class="data-item">
+                --}}{{-- 表格 --}}{{--
                 <table class="table table-bordered">
                     <thead>
                         <tr>
                         <td>序号</td>
-                        <td>商品链接</td>
-                        <td>好货标题</td>
-                        <td>模块一</td>
-                        <td>模块二</td>
-                        <td>模块三</td>
-                        <td>模块图片</td>
-                        <td>白底图片</td>
-                        <td>封面图片</td>
-                        <td>好货编号</td>
-                        <td>当前状态</td>
-                        <td>预览</td>
-                        <td>文案</td>
-                        <td>生成</td>
-                        <td>发布</td>
+                            <td>商品链接</td>
+                            <td>好货标题</td>
+                            <td>模块一</td>
+                            <td>模块二</td>
+                            <td>模块三</td>
+                            <td>模块图片</td>
+                            <td>白底图片</td>
+                            <td>封面图片</td>
+                            <td>好货编号</td>
+                            <td>当前状态</td>
+                            <td>预览</td>
+                            <td>文案</td>
+                            <td>生成</td>
+                            <td>发布</td>
                     </tr>
                     </thead>
 
@@ -159,36 +156,15 @@
 
                     </tbody>
                 </table>
-            </div>
+            </div>--}}
+            <data-list></data-list>
         </div>
     </div>
     @endsection
 
 @section('script')
     <script>
-        var vm = new Vue({
-            el: '.data-item',
-            data: {
-                list: [
-                    {'id':1,'raw_title':1,'ids':1,'ida':1,'idq':1,'detail_url':1}
-                ]
-            },
-            methods: {
-                niceGoods: function () {
-                    var self = this;
-                    $.ajax({
-                        url: '{{ route('t.getListData') }}',
-                        type: 'get',
-                        headers: {
-                            "csrf-token": "{{ csrf_token() }}"
-                        },
-                        success: function(data){
-                            self.list = data.auctions;
-                        }
-                    })
-                }
-            }
-        });
+
         function niceGoods()
         {
             $.ajax({

@@ -20,5 +20,13 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 // 测试获取淘宝的数据列表
+// 首页
 Route::get('test', 'TestController@index')->name('t.index');
+// 获取数据列表
 Route::get('getListData', 'TestController@getListData')->name('t.getListData');
+// 生成图片
+Route::get('getPicture', 'TestController@getPicture')->name('t.getPicture');
+// 生成文案
+Route::get('getContent', 'TestController@getContent')->name('t.getContent');
+// 发布
+Route::post('post', 'TestController@post')->name('t.post');

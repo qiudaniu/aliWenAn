@@ -29,6 +29,51 @@ class TestController extends Controller
 //        foreach (json_decode('{' . $match[1] . '}') as $key=>$value){
 //
 //        }
-        return json_decode('{' . $match[1] . '}', true);
+        return [
+            'list' => json_decode('{' . $match[1] . '}', true)['auctions'],
+            'labels' => [
+                'id' => '序号',
+                'name' => '商品链接',
+                'raw_title' => '好货标题',
+                'picture' => '模块图片',
+            ]
+        ];
     }
+
+    // 获取图片
+    public function getPicture()
+    {
+        // 五张高清图
+        // 800*800
+
+        // 1000*750
+
+        // 商品详情图
+
+        // 保存到本地
+
+        return ['message'=>'ok'];
+    }
+
+    // 获取文案
+    public function getContent()
+    {
+        // 模块 三块
+
+    }
+
+    // 逻辑
+    /*
+     *  1 爬取淘宝数据列表，数据填充页面
+     *  2 生成图片，保存到本地，点击修改，三张图片赋值到表单
+     *  3 生成文案，保存到表单
+     *  4 发布到阿里达人，获取到阿里达人的token，调用阿里达人的发布接口，一键发布
+     *  5 保存用户已经发布出去的商品数据
+     *
+     *
+     *  正式开发时--小功能：
+     *      删除未生成
+     *      批量操作
+     *
+     * */
 }
