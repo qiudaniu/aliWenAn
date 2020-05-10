@@ -23,7 +23,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 // 首页
 Route::get('test', 'TestController@index')->name('t.index');
 // 获取数据列表
-Route::get('getListData', 'TestController@getListData')->name('t.getListData');
+Route::get('test/getListData', 'TestController@getListData')->name('t.getListData');
 // 生成图片
 Route::get('getPicture', 'TestController@getPicture')->name('t.getPicture');
 // 生成文案

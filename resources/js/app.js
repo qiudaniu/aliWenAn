@@ -28,5 +28,5 @@ Vue.component('data-list', require('./components/DataList.vue').default);
  */
 
 const app = new Vue({
-    el: '#part-two',
+    el: '#container'
 });

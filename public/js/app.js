@@ -1979,12 +1979,89 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: "DataList",
-
-  /*mounted() {
-      this.init();
-  },*/
   data: function data() {
     return {
       url: null,
@@ -2006,18 +2083,6 @@ __webpack_require__.r(__webpack_exports__);
         page: page,
         perPage: perPage
       }, function (data, status) {
-        // $('#DataTable').bootstrapTable({
-        //     columns: [
-        //         {
-        //             formatter: function (value, row, index, field) {
-        //                 var span=document.createElement('span');
-        //                 span.setAttribute('title',value);
-        //                 span.innerHTML = value;
-        //                 return span.outerHTML;
-        //             }
-        //          },
-        //     ]
-        // });
         $(".table tbody tr td").each(function () {
           $(this).attr("title", $(this).text());
         });
@@ -2025,7 +2090,26 @@ __webpack_require__.r(__webpack_exports__);
         self.list = data.list;
         self.labels = data.labels;
       });
-    }
+    },
+    downloadPicture: function downloadPicture(images) {
+      imageArr = images.split(',');
+
+      for (var i = 0; i < imageArr.length; i++) {
+        // 创建隐藏的可下载链接
+        var eleLink = document.createElement('a');
+        eleLink.download = filename;
+        eleLink.style.display = 'none'; // 字符内容转变成blob地址
+
+        var blob = new Blob([content]);
+        eleLink.href = URL.createObjectURL(blob); // 触发点击
+
+        document.body.appendChild(eleLink);
+        eleLink.click(); // 然后移除
+
+        document.body.removeChild(eleLink);
+      }
+    },
+    getContent: function getContent() {}
   }
 });
 
@@ -6574,7 +6658,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\ntable[data-v-8cff5e5a]{\n    table-layout:fixed;\n}\n.table tbody tr td[data-v-8cff5e5a]{\n    overflow: hidden;\n    text-overflow:ellipsis;\n    white-space: nowrap;\n}\n", ""]);
+exports.push([module.i, "\ntable[data-v-8cff5e5a]{\n    table-layout:fixed;\n}\n.table tbody tr td[data-v-8cff5e5a]{\n    overflow: hidden;\n    text-overflow:ellipsis;\n    white-space: nowrap;\n}\n.part-one[data-v-8cff5e5a]{\n    height: 352px;\n    border: solid 1px;\n}\n.pic-area[data-v-8cff5e5a]{\n    width: 30%;\n    border-right: solid 1px;\n}\n.pic-big[data-v-8cff5e5a]{\n    height: 250px;\n}\n.pic-item[data-v-8cff5e5a]{\n    width: auto;\n    height: 100px;\n}\n.content-area[data-v-8cff5e5a]{\n    width: 40%;\n    border-right: solid 1px;\n}\n.content-detail[data-v-8cff5e5a]{\n    margin: 20px;\n}\n.title[data-v-8cff5e5a]{\n    width: 78%;\n    height: 28px;\n    font-size: 14px;\n    border: 1px solid #ccc;\n    position: relative;\n}\n.title input[data-v-8cff5e5a]{\n    outline-style: none;\n    width: 100%;\n    height: 26px;\n    border: none;\n    position: static;\n}\n.num-title[data-v-8cff5e5a]{\n    position: absolute;\n    top: 3px;\n    right: 3px;\n    background: #fff;\n}\n.save-content[data-v-8cff5e5a]{\n    font-size: 5px;\n    width: 20%;\n    text-align: center;\n    line-height: 26px;\n    background: #f4f5ff ;\n    border: solid 1px #ccc;\n}\n.textarea[data-v-8cff5e5a]{\n    margin-top: 10px;\n    width: 100%;\n    height: 60px;\n    overflow: hidden;\n    font-size: 10px;\n}\n.filter-area[data-v-8cff5e5a]{\n    width: 30%;\n    padding: 15px;\n}\n.filter-1[data-v-8cff5e5a]{\n    /*margin: 10px 10px;*/\n    height: 36px;\n    width: 100%;\n}\n.search[data-v-8cff5e5a]{\n    width: 30%;\n    margin-right: 5px;\n}\n.page-num[data-v-8cff5e5a]{\n    width: 15%;\n    margin-right: 5px;\n    position: relative;\n}\n.filter-3[data-v-8cff5e5a]{\n    margin-top: 5px;\n}\n.page-num input[data-v-8cff5e5a]{\n    width: 100%;\n    height: 36px;\n}\n.change-num[data-v-8cff5e5a]{\n    width: 40%;\n    position: absolute;\n    top: -2px;\n    right: 2px;\n}\n\n", ""]);
 
 // exports
 
@@ -38320,29 +38404,41 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "div",
-    { staticClass: "box box-default", attrs: { id: "DataTable" } },
-    [
-      _c(
-        "button",
-        {
-          on: {
-            click: function($event) {
-              return _vm.request("getListData", "0", "15")
-            }
-          }
-        },
-        [_vm._v("好货生成")]
-      ),
+  return _c("div", { staticClass: "container", attrs: { id: "container" } }, [
+    _c("div", { staticClass: "part-one d-flex" }, [
+      _vm._m(0),
       _vm._v(" "),
+      _vm._m(1),
+      _vm._v(" "),
+      _c("div", { staticClass: "filter-area" }, [
+        _vm._m(2),
+        _vm._v(" "),
+        _c("div", { staticClass: "filter-2 d-flex" }, [
+          _c(
+            "button",
+            {
+              on: {
+                click: function($event) {
+                  return _vm.request("getListData", "0", "15")
+                }
+              }
+            },
+            [_vm._v("好货生成")]
+          )
+        ]),
+        _vm._v(" "),
+        _vm._m(3)
+      ])
+    ]),
+    _vm._v(" "),
+    _c("div", { staticClass: "box box-default" }, [
       _c("div", { staticClass: "overlay", class: { hidden: !_vm.loading } }, [
         _c("i", { staticClass: "fa fa-refresh fa-spin" })
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "box-body table-responsive no-padding" }, [
         _c("table", { staticClass: "table table-hover" }, [
-          _vm._m(0),
+          _vm._m(4),
           _vm._v(" "),
           _c(
             "tbody",
@@ -38366,7 +38462,10 @@ var render = function() {
                 _vm._v(" "),
                 _c("td"),
                 _vm._v(" "),
-                _c("td"),
+                _c("td", {
+                  attrs: { title: li["images"] },
+                  domProps: { innerHTML: _vm._s(li["images"]) }
+                }),
                 _vm._v(" "),
                 _c("td"),
                 _vm._v(" "),
@@ -38381,9 +38480,29 @@ var render = function() {
                 _vm._v(" "),
                 _c("td", [_vm._v("预览")]),
                 _vm._v(" "),
-                _c("td", [_vm._v("文案")]),
+                _c(
+                  "td",
+                  {
+                    on: {
+                      click: function($event) {
+                        return _vm.getContent(li["nid"])
+                      }
+                    }
+                  },
+                  [_vm._v("文案")]
+                ),
                 _vm._v(" "),
-                _c("td", [_vm._v("生成")]),
+                _c(
+                  "td",
+                  {
+                    on: {
+                      click: function($event) {
+                        return _vm.downloadPicture(li["images"])
+                      }
+                    }
+                  },
+                  [_vm._v("生成")]
+                ),
                 _vm._v(" "),
                 _c("td", [_vm._v("发布")]),
                 _vm._v(" "),
@@ -38488,17 +38607,237 @@ var render = function() {
           2
         )
       ])
-    ]
-  )
+    ])
+  ])
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "pic-area" }, [
+      _c("div", { staticClass: "text-center pic-big" }, [
+        _c("img", {
+          staticClass: "img-responsive center-block",
+          attrs: {
+            src:
+              "//img.alicdn.com/imgextra/i4/814413924/O1CN01omQpbH1erEktA6qZ4_!!814413924.jpg",
+            width: "70px",
+            height: "200px;"
+          }
+        })
+      ]),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "d-flex justify-content-between align-items-end pic-item"
+        },
+        [
+          _c("img", {
+            attrs: {
+              src:
+                "//img.alicdn.com/imgextra/i4/814413924/O1CN01omQpbH1erEktA6qZ4_!!814413924.jpg",
+              width: "50px",
+              height: "80px"
+            }
+          }),
+          _vm._v(" "),
+          _c("img", {
+            attrs: {
+              src:
+                "//img.alicdn.com/imgextra/i4/814413924/O1CN01omQpbH1erEktA6qZ4_!!814413924.jpg",
+              width: "50px",
+              height: "80px"
+            }
+          }),
+          _vm._v(" "),
+          _c("img", {
+            attrs: {
+              src:
+                "//img.alicdn.com/imgextra/i4/814413924/O1CN01omQpbH1erEktA6qZ4_!!814413924.jpg",
+              width: "50px",
+              height: "80px"
+            }
+          }),
+          _vm._v(" "),
+          _c("img", {
+            attrs: {
+              src:
+                "//img.alicdn.com/imgextra/i4/814413924/O1CN01omQpbH1erEktA6qZ4_!!814413924.jpg",
+              width: "50px",
+              height: "80px"
+            }
+          }),
+          _vm._v(" "),
+          _c("img", {
+            attrs: {
+              src:
+                "//img.alicdn.com/imgextra/i4/814413924/O1CN01omQpbH1erEktA6qZ4_!!814413924.jpg",
+              width: "50px",
+              height: "80px"
+            }
+          })
+        ]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "content-area" }, [
+      _c("div", { staticClass: "g-item" }, [
+        _vm._v("\n                多元好货\n            ")
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "content-detail" }, [
+        _c("div", { staticClass: "d-flex justify-content-between" }, [
+          _c("div", { staticClass: "title" }, [
+            _c("input", {
+              staticClass: "title",
+              attrs: { type: "text", value: "", name: "title" }
+            }),
+            _vm._v(" "),
+            _c("div", { staticClass: "num-title" }, [
+              _c("span", [_vm._v("22/19")])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("span", { staticClass: "save-content" }, [_vm._v("保存内容")])
+        ]),
+        _vm._v(" "),
+        _c("textarea", {
+          staticClass: "textarea",
+          attrs: { name: "model_1", id: "" }
+        }),
+        _vm._v(" "),
+        _c("textarea", {
+          staticClass: "textarea",
+          attrs: { name: "model_2", id: "" }
+        }),
+        _vm._v(" "),
+        _c("textarea", {
+          staticClass: "textarea",
+          attrs: { name: "model_3", id: "" }
+        })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "filter-1 d-flex" }, [
+      _c("input", {
+        staticClass: "search",
+        attrs: { type: "text", name: "search" }
+      }),
+      _vm._v(" "),
+      _c("div", { staticClass: "page-num" }, [
+        _c("input", { attrs: { type: "text", value: "1" } }),
+        _vm._v(" "),
+        _c("div", { staticClass: "change-num" }, [
+          _c("span", { staticClass: "glyphicon glyphicon-chevron-up" }),
+          _vm._v(" "),
+          _c("span", { staticClass: "glyphicon glyphicon-chevron-down" })
+        ])
+      ]),
+      _vm._v(" "),
+      _c("input", { staticStyle: { width: "50%" }, attrs: { type: "text" } })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "filter-3 d-flex flex-wrap justify-content-between" },
+      [
+        _c("label", { staticClass: "checkbox-inline" }, [
+          _c("input", {
+            attrs: { type: "checkbox", id: "inlineCheckbox1", value: "option1" }
+          }),
+          _vm._v(" 草稿\n                ")
+        ]),
+        _vm._v(" "),
+        _c("label", { staticClass: "checkbox-inline" }, [
+          _c("input", {
+            attrs: { type: "checkbox", id: "inlineCheckbox2", value: "option2" }
+          }),
+          _vm._v(" 选品\n                ")
+        ]),
+        _vm._v(" "),
+        _c("label", { staticClass: "checkbox-inline" }, [
+          _c("input", {
+            attrs: { type: "checkbox", id: "inlineCheckbox3", value: "option3" }
+          }),
+          _vm._v(" 推送\n                ")
+        ]),
+        _vm._v(" "),
+        _c("label", { staticClass: "checkbox-inline" }, [
+          _c("input", {
+            attrs: { type: "checkbox", id: "inlineCheckbox4", value: "option1" }
+          }),
+          _vm._v(" 优秀\n                ")
+        ]),
+        _vm._v(" "),
+        _c("label", { staticClass: "checkbox-inline" }, [
+          _c("input", {
+            attrs: { type: "checkbox", id: "inlineCheckbox5", value: "option2" }
+          }),
+          _vm._v(" 查库\n                ")
+        ]),
+        _vm._v(" "),
+        _c("label", { staticClass: "checkbox-inline" }, [
+          _c("input", {
+            attrs: { type: "checkbox", id: "inlineCheckbox6", value: "option3" }
+          }),
+          _vm._v(" 详情\n                ")
+        ]),
+        _vm._v(" "),
+        _c("label", { staticClass: "checkbox-inline" }, [
+          _c("input", {
+            attrs: { type: "checkbox", id: "inlineCheckbox7", value: "option3" }
+          }),
+          _vm._v(" 片尾\n                ")
+        ]),
+        _vm._v(" "),
+        _c("label", { staticClass: "checkbox-inline" }, [
+          _c("input", {
+            attrs: { type: "checkbox", id: "inlineCheckbox8", value: "option3" }
+          }),
+          _vm._v(" 水印\n                ")
+        ]),
+        _vm._v(" "),
+        _c("label", { staticClass: "checkbox-inline" }, [
+          _c("input", {
+            attrs: { type: "checkbox", id: "inlineCheckbox9", value: "option3" }
+          }),
+          _vm._v(" 加速\n                ")
+        ]),
+        _vm._v(" "),
+        _c("label", { staticClass: "checkbox-inline" }, [
+          _c("input", {
+            attrs: {
+              type: "checkbox",
+              id: "inlineCheckbox10",
+              value: "option3"
+            }
+          }),
+          _vm._v(" 原创\n                ")
+        ])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
     return _c("thead", [
       _c("tr", [
-        _c("th", { staticStyle: { width: "3%" } }, [_vm._v("序号")]),
+        _c("th", { staticStyle: { width: "3%" } }, [_vm._v("序")]),
         _vm._v(" "),
         _c("th", { staticStyle: { width: "10%" } }, [_vm._v("商品链接")]),
         _vm._v(" "),
@@ -50727,7 +51066,7 @@ Vue.component('data-list', __webpack_require__(/*! ./components/DataList.vue */ 
  */
 
 var app = new Vue({
-  el: '#part-two'
+  el: '#container'
 });
 
 /***/ }),
@@ -50882,8 +51221,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\n-m-p\nginx-1.14.2\html\aliWenAn\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! D:\n-m-p\nginx-1.14.2\html\aliWenAn\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! D:\phpStudy\PHPTutorial\WWW\aliWenAn\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! D:\phpStudy\PHPTutorial\WWW\aliWenAn\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

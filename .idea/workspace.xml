@@ -2,27 +2,134 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ed2e8fc-e323-4dbc-8c32-b6c9b965c03f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/js/components/DataList.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/aliWenAn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/aliWenAn.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TestController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TestController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/aliWenAn.iml" afterPath="$PROJECT_DIR$/.idea/aliWenAn.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/TestController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TestController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/app.php" afterPath="$PROJECT_DIR$/config/app.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/app.css" afterPath="$PROJECT_DIR$/public/css/app.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app.js" afterPath="$PROJECT_DIR$/public/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/mix-manifest.json" afterPath="$PROJECT_DIR$/public/mix-manifest.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/js/app.js" afterPath="$PROJECT_DIR$/resources/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/js/components/DataList.vue" afterPath="$PROJECT_DIR$/resources/js/components/DataList.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/web.php" afterPath="$PROJECT_DIR$/routes/web.php" />
     </list>
+    <ignored path="$PROJECT_DIR$/node_modules/" />
+    <ignored path="$PROJECT_DIR$/vendor/beyondcode/laravel-dump-server/" />
+    <ignored path="$PROJECT_DIR$/vendor/composer/" />
+    <ignored path="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir/" />
+    <ignored path="$PROJECT_DIR$/vendor/doctrine/inflector/" />
+    <ignored path="$PROJECT_DIR$/vendor/doctrine/instantiator/" />
+    <ignored path="$PROJECT_DIR$/vendor/doctrine/lexer/" />
+    <ignored path="$PROJECT_DIR$/vendor/dragonmantank/cron-expression/" />
+    <ignored path="$PROJECT_DIR$/vendor/egulias/email-validator/" />
+    <ignored path="$PROJECT_DIR$/vendor/erusev/parsedown/" />
+    <ignored path="$PROJECT_DIR$/vendor/fideloper/proxy/" />
+    <ignored path="$PROJECT_DIR$/vendor/filp/whoops/" />
+    <ignored path="$PROJECT_DIR$/vendor/fzaninotto/faker/" />
+    <ignored path="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/" />
+    <ignored path="$PROJECT_DIR$/vendor/guzzlehttp/promises/" />
+    <ignored path="$PROJECT_DIR$/vendor/guzzlehttp/psr7/" />
+    <ignored path="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/" />
+    <ignored path="$PROJECT_DIR$/vendor/jakub-onderka/php-console-color/" />
+    <ignored path="$PROJECT_DIR$/vendor/jakub-onderka/php-console-highlighter/" />
+    <ignored path="$PROJECT_DIR$/vendor/laravel/framework/" />
+    <ignored path="$PROJECT_DIR$/vendor/laravel/tinker/" />
+    <ignored path="$PROJECT_DIR$/vendor/league/flysystem/" />
+    <ignored path="$PROJECT_DIR$/vendor/mockery/mockery/" />
+    <ignored path="$PROJECT_DIR$/vendor/monolog/monolog/" />
+    <ignored path="$PROJECT_DIR$/vendor/myclabs/deep-copy/" />
+    <ignored path="$PROJECT_DIR$/vendor/nesbot/carbon/" />
+    <ignored path="$PROJECT_DIR$/vendor/nikic/php-parser/" />
+    <ignored path="$PROJECT_DIR$/vendor/nunomaduro/collision/" />
+    <ignored path="$PROJECT_DIR$/vendor/opis/closure/" />
+    <ignored path="$PROJECT_DIR$/vendor/paragonie/random_compat/" />
+    <ignored path="$PROJECT_DIR$/vendor/phar-io/manifest/" />
+    <ignored path="$PROJECT_DIR$/vendor/phar-io/version/" />
+    <ignored path="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common/" />
+    <ignored path="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/" />
+    <ignored path="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver/" />
+    <ignored path="$PROJECT_DIR$/vendor/phpoption/phpoption/" />
+    <ignored path="$PROJECT_DIR$/vendor/phpspec/prophecy/" />
+    <ignored path="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/" />
+    <ignored path="$PROJECT_DIR$/vendor/phpunit/php-file-iterator/" />
+    <ignored path="$PROJECT_DIR$/vendor/phpunit/php-text-template/" />
+    <ignored path="$PROJECT_DIR$/vendor/phpunit/php-timer/" />
+    <ignored path="$PROJECT_DIR$/vendor/phpunit/php-token-stream/" />
+    <ignored path="$PROJECT_DIR$/vendor/phpunit/phpunit/" />
+    <ignored path="$PROJECT_DIR$/vendor/psr/container/" />
+    <ignored path="$PROJECT_DIR$/vendor/psr/http-message/" />
+    <ignored path="$PROJECT_DIR$/vendor/psr/log/" />
+    <ignored path="$PROJECT_DIR$/vendor/psr/simple-cache/" />
+    <ignored path="$PROJECT_DIR$/vendor/psy/psysh/" />
+    <ignored path="$PROJECT_DIR$/vendor/ralouphie/getallheaders/" />
+    <ignored path="$PROJECT_DIR$/vendor/ramsey/uuid/" />
+    <ignored path="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup/" />
+    <ignored path="$PROJECT_DIR$/vendor/sebastian/comparator/" />
+    <ignored path="$PROJECT_DIR$/vendor/sebastian/diff/" />
+    <ignored path="$PROJECT_DIR$/vendor/sebastian/environment/" />
+    <ignored path="$PROJECT_DIR$/vendor/sebastian/exporter/" />
+    <ignored path="$PROJECT_DIR$/vendor/sebastian/global-state/" />
+    <ignored path="$PROJECT_DIR$/vendor/sebastian/object-enumerator/" />
+    <ignored path="$PROJECT_DIR$/vendor/sebastian/object-reflector/" />
+    <ignored path="$PROJECT_DIR$/vendor/sebastian/recursion-context/" />
+    <ignored path="$PROJECT_DIR$/vendor/sebastian/resource-operations/" />
+    <ignored path="$PROJECT_DIR$/vendor/sebastian/version/" />
+    <ignored path="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/" />
+    <ignored path="$PROJECT_DIR$/vendor/symfony/console/" />
+    <ignored path="$PROJECT_DIR$/vendor/symfony/css-selector/" />
+    <ignored path="$PROJECT_DIR$/vendor/symfony/debug/" />
+    <ignored path="$PROJECT_DIR$/vendor/symfony/error-handler/" />
+    <ignored path="$PROJECT_DIR$/vendor/symfony/event-dispatcher/" />
+    <ignored path="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts/" />
+    <ignored path="$PROJECT_DIR$/vendor/symfony/finder/" />
+    <ignored path="$PROJECT_DIR$/vendor/symfony/http-foundation/" />
+    <ignored path="$PROJECT_DIR$/vendor/symfony/http-kernel/" />
+    <ignored path="$PROJECT_DIR$/vendor/symfony/mime/" />
+    <ignored path="$PROJECT_DIR$/vendor/symfony/polyfill-ctype/" />
+    <ignored path="$PROJECT_DIR$/vendor/symfony/polyfill-iconv/" />
+    <ignored path="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn/" />
+    <ignored path="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/" />
+    <ignored path="$PROJECT_DIR$/vendor/symfony/polyfill-php72/" />
+    <ignored path="$PROJECT_DIR$/vendor/symfony/polyfill-php73/" />
+    <ignored path="$PROJECT_DIR$/vendor/symfony/process/" />
+    <ignored path="$PROJECT_DIR$/vendor/symfony/routing/" />
+    <ignored path="$PROJECT_DIR$/vendor/symfony/service-contracts/" />
+    <ignored path="$PROJECT_DIR$/vendor/symfony/translation/" />
+    <ignored path="$PROJECT_DIR$/vendor/symfony/translation-contracts/" />
+    <ignored path="$PROJECT_DIR$/vendor/symfony/var-dumper/" />
+    <ignored path="$PROJECT_DIR$/vendor/theseer/tokenizer/" />
+    <ignored path="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles/" />
+    <ignored path="$PROJECT_DIR$/vendor/vlucas/phpdotenv/" />
+    <ignored path="$PROJECT_DIR$/vendor/webmozart/assert/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution>
-      <executable />
-    </execution>
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="DataList.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/js/components/DataList.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2314">
+              <caret line="91" column="51" lean-forward="false" selection-start-line="91" selection-start-column="51" selection-end-line="91" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -31,101 +138,361 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>itemNumId</find>
+      <find>exParams</find>
+      <find>}}</find>
+      <find>data</find>
+      <find>DataList</find>
+      <find>DataTable</find>
+      <find>niceGoods</find>
+      <find>request</find>
+      <find>nice</find>
+      <find>disk</find>
+      <find>preg</find>
+      <find>picTab</find>
+      <find>26235332</find>
+      <find>header</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$USER_HOME$/Desktop/test.html" />
+        <option value="$PROJECT_DIR$/resources/js/app.js" />
+        <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/public/test.txt" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/config/app.php" />
+        <option value="$PROJECT_DIR$/resources/js/components/DataList.vue" />
+        <option value="$USER_HOME$/Desktop/jisuapi/include/isbn/isbn.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/TestController.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
     <include_path>
-      <path value="$PROJECT_DIR$/vendor/psy/psysh" />
-      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
-      <path value="$PROJECT_DIR$/vendor/opis/closure" />
-      <path value="$PROJECT_DIR$/vendor/filp/whoops" />
-      <path value="$PROJECT_DIR$/vendor/psr/container" />
-      <path value="$PROJECT_DIR$/vendor/psr/log" />
-      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
-      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
-      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-highlighter" />
-      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
-      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
-      <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
-      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
-      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-color" />
-      <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
-      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
-      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
-      <path value="$PROJECT_DIR$/vendor/nunomaduro/collision" />
-      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
-      <path value="$PROJECT_DIR$/vendor/composer" />
-      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
-      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
-      <path value="$PROJECT_DIR$/vendor/beyondcode/laravel-dump-server" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
-      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
-      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
-      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
-      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
-      <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
       <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
-      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
       <path value="$PROJECT_DIR$/vendor/symfony/translation" />
-      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
-      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
-      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
-      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
-      <path value="$PROJECT_DIR$/vendor/symfony/process" />
-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
-      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
-      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
       <path value="$PROJECT_DIR$/vendor/symfony/mime" />
-      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
       <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
-      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
-      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
-      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
-      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
-      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
-      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
-      <path value="$PROJECT_DIR$/vendor/symfony/console" />
-      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
-      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
-      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
-      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/beyondcode/laravel-dump-server" />
       <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
-      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
-      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
       <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
       <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
       <path value="$PROJECT_DIR$/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/filp/whoops" />
       <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
-      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
-      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
-      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
-      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
-      <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
-      <path value="$PROJECT_DIR$/vendor/erusev/parsedown" />
-      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
       <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
-      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/vendor/intervention/image" />
     </include_path>
   </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="784" />
+  </component>
   <component name="ProjectId" id="1bF25lG2PACp6G79hD98MiFMtEz" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aliWenAn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aliWenAn" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aliWenAn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aliWenAn" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aliWenAn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aliWenAn" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aliWenAn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aliWenAn" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aliWenAn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aliWenAn" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aliWenAn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aliWenAn" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aliWenAn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aliWenAn" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aliWenAn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aliWenAn" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aliWenAn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aliWenAn" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aliWenAn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aliWenAn" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aliWenAn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aliWenAn" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -133,25 +500,99 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../web" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\phpStudy\PHPTutorial\WWW\aliWenAn\app\Models" />
     </key>
   </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
   <component name="RunManager">
-    <configuration default="true" type="js.build_tools.gulp">
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
       <tasks />
       <arguments />
       <envs />
-      <method v="2" />
+      <method />
     </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -166,11 +607,42 @@
       <workItem from="1587061611565" duration="1782000" />
       <workItem from="1587386838291" duration="39661000" />
       <workItem from="1588213341014" duration="13576000" />
+      <workItem from="1588437929955" duration="21437000" />
+      <workItem from="1588557112013" duration="17117000" />
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="48461000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22620791" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3512438" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="WindowStateProjectService">
     <state width="498" height="446" key="SwitcherDM" timestamp="1588223221230">
@@ -181,5 +653,558 @@
       <screen x="-1920" y="4" width="1920" height="1050" />
     </state>
     <state x="-1297" y="231" width="672" height="678" key="search.everywhere.popup/0.0.1280.689/-1920.4.1920.1050@-1920.4.1920.1050" timestamp="1588238908641" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/public/123/0503041147/O1CN01JvdVYd1bYy6QYzL4H-134363478_800×800_4.jpg" />
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Storage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="13" />
+          <folding>
+            <marker date="1587060942868" expanded="true" signature="88:230" ph=" @method static \Illuminate\Contracts\Filesystem\Filesystem disk(string $name = null) ..." />
+            <marker date="1587060942868" expanded="true" signature="261:1465" ph="{...}" />
+            <marker date="1587060942868" expanded="true" signature="271:431" ph=" Replace the given disk with a local testing disk. ..." />
+            <marker date="1587060942868" expanded="true" signature="479:791" ph="{...}" />
+            <marker date="1587060942868" expanded="true" signature="603:679" ph="..." />
+            <marker date="1587060942868" expanded="true" signature="800:964" ph=" Replace the given disk with a persistent local testing disk. ..." />
+            <marker date="1587060942868" expanded="true" signature="1022:1277" ph="{...}" />
+            <marker date="1587060942868" expanded="true" signature="1125:1246" ph="..." />
+            <marker date="1587060942868" expanded="true" signature="1164:1245" ph="..." />
+            <marker date="1587060942868" expanded="true" signature="1165:1244" ph="..." />
+            <marker date="1587060942868" expanded="true" signature="1286:1370" ph=" Get the registered name of the component. ..." />
+            <marker date="1587060942868" expanded="true" signature="1422:1463" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+          <folding>
+            <marker date="1588473006176" expanded="false" signature="9:387" ph="..." />
+            <marker date="1588473006176" expanded="true" signature="402:450" ph="..." />
+            <marker date="1588473006176" expanded="true" signature="420:449" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/jisuapi/isbn/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <marker date="1558595482389" expanded="true" signature="9:69" ph=" ISBN查询 ..." />
+            <marker date="1558595482389" expanded="true" signature="302:3390" ph="{...}" />
+            <marker date="1558595482389" expanded="true" signature="616:803" ph="..." />
+            <marker date="1558595482389" expanded="true" signature="617:802" ph="select id,ti... " />
+            <marker date="1558595482389" expanded="true" signature="836:963" ph="{...}" />
+            <marker date="1558595482389" expanded="true" signature="992:1471" ph="{...}" />
+            <marker date="1558595482389" expanded="true" signature="1106:1256" ph="{...}" />
+            <marker date="1558595482389" expanded="true" signature="1292:1439" ph="{...}" />
+            <marker date="1558595482389" expanded="true" signature="1501:1893" ph="{...}" />
+            <marker date="1558595482389" expanded="true" signature="1696:1887" ph="{...}" />
+            <marker date="1558595482389" expanded="true" signature="1928:2285" ph="{...}" />
+            <marker date="1558595482389" expanded="true" signature="2030:2176" ph="{...}" />
+            <marker date="1558595482389" expanded="true" signature="2204:2279" ph="{...}" />
+            <marker date="1558595482389" expanded="true" signature="2454:2519" ph="select selle... xxuan_isbn_seller" />
+            <marker date="1558595482389" expanded="true" signature="2585:3237" ph="{...}" />
+            <marker date="1558595482389" expanded="true" signature="2622:3149" ph="{...}" />
+            <marker date="1558595482389" expanded="true" signature="2655:2794" ph="..." />
+            <marker date="1558595482389" expanded="true" signature="2823:2971" ph="..." />
+            <marker date="1558595482389" expanded="true" signature="2998:3139" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/jisuapi/include/isbn/isbn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="30" column="42" lean-forward="true" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
+          <folding>
+            <marker date="1560736425547" expanded="true" signature="102:116" ph=" ISBN ..." />
+            <marker date="1560736425547" expanded="true" signature="129:29830" ph="{...}" />
+            <marker date="1560736425547" expanded="true" signature="159:207" ph="{...}" />
+            <marker date="1560736425547" expanded="true" signature="217:469" ph=" 从http://www.gapp.gov.cn获取数据 缺少page ..." />
+            <marker date="1560736425547" expanded="true" signature="502:2523" ph="{...}" />
+            <marker date="1560736425547" expanded="true" signature="940:2503" ph="{...}" />
+            <marker date="1560736425547" expanded="true" signature="962:2498" ph="..." />
+            <marker date="1560736425547" expanded="true" signature="981:1032" ph="..." />
+            <marker date="1560736425547" expanded="true" signature="1049:1175" ph="..." />
+            <marker date="1560736425547" expanded="true" signature="1191:1244" ph="..." />
+            <marker date="1560736425547" expanded="true" signature="1260:1316" ph="..." />
+            <marker date="1560736425547" expanded="true" signature="1333:1390" ph="..." />
+            <marker date="1560736425547" expanded="true" signature="1406:1462" ph="..." />
+            <marker date="1560736425547" expanded="true" signature="1479:1555" ph="..." />
+            <marker date="1560736425547" expanded="true" signature="1582:1637" ph="..." />
+            <marker date="1560736425547" expanded="true" signature="1664:1722" ph="..." />
+            <marker date="1560736425547" expanded="true" signature="1740:1828" ph="..." />
+            <marker date="1560736425547" expanded="true" signature="1846:1899" ph="..." />
+            <marker date="1560736425547" expanded="true" signature="1928:1984" ph="..." />
+            <marker date="1560736425547" expanded="true" signature="2014:2111" ph="..." />
+            <marker date="1560736425547" expanded="true" signature="2128:2183" ph="..." />
+            <marker date="1560736425547" expanded="true" signature="2211:2266" ph="..." />
+            <marker date="1560736425547" expanded="true" signature="2284:2337" ph="..." />
+            <marker date="1560736425547" expanded="true" signature="2354:2409" ph="..." />
+            <marker date="1560736425547" expanded="true" signature="2429:2491" ph="..." />
+            <marker date="1560736425547" expanded="true" signature="2534:2558" ph=" 从豆瓣网获取页数、价格 ..." />
+            <marker date="1560736425547" expanded="true" signature="2593:2941" ph="{...}" />
+            <marker date="1560736425547" expanded="true" signature="2625:2669" ph="select id,is... xxuan_isbn" />
+            <marker date="1560736425547" expanded="true" signature="2715:2938" ph="{...}" />
+            <marker date="1560736425547" expanded="true" signature="2947:3024" ph=" 从豆瓣API获取数据 ..." />
+            <marker date="1560736425547" expanded="true" signature="3068:4081" ph="{...}" />
+            <marker date="1560736425547" expanded="true" signature="3364:3485" ph="{...}" />
+            <marker date="1560736425547" expanded="true" signature="3576:3967" ph="..." />
+            <marker date="1560736425547" expanded="true" signature="4094:4110" ph=" 京东       ..." />
+            <marker date="1560736425547" expanded="true" signature="4150:5019" ph="{...}" />
+            <marker date="1560736425547" expanded="true" signature="4420:4541" ph="{...}" />
+            <marker date="1560736425547" expanded="true" signature="5025:5101" ph=" 从豆瓣网获取数据 ..." />
+            <marker date="1560736425547" expanded="true" signature="5146:6967" ph="{...}" />
+            <marker date="1560736425547" expanded="true" signature="6270:6391" ph="{...}" />
+            <marker date="1560736425547" expanded="true" signature="6463:6673" ph="..." />
+            <marker date="1560736425547" expanded="true" signature="6973:7051" ph=" 从中国图书网获取数据 ..." />
+            <marker date="1560736425547" expanded="true" signature="7098:9471" ph="{...}" />
+            <marker date="1560736425547" expanded="true" signature="7716:7799" ph="{...}" />
+            <marker date="1560736425547" expanded="true" signature="7812:7942" ph="{...}" />
+            <marker date="1560736425547" expanded="true" signature="7961:8236" ph="..." />
+            <marker date="1560736425547" expanded="true" signature="8749:8870" ph="{...}" />
+            <marker date="1560736425547" expanded="true" signature="8946:9189" ph="..." />
+            <marker date="1560736425547" expanded="true" signature="9536:11527" ph="{...}" />
+            <marker date="1560736425547" expanded="true" signature="10979:11100" ph="{...}" />
+            <marker date="1560736425547" expanded="true" signature="11156:11390" ph="..." />
+            <marker date="1560736425547" expanded="true" signature="11570:13741" ph="{...}" />
+            <marker date="1560736425547" expanded="true" signature="11968:12046" ph="{...}" />
+            <marker date="1560736425547" expanded="true" signature="12556:12601" ph="{...}" />
+            <marker date="1560736425547" expanded="true" signature="12626:12686" ph="{...}" />
+            <marker date="1560736425547" expanded="true" signature="12722:13101" ph="{...}" />
+            <marker date="1560736425547" expanded="true" signature="12786:13097" ph="{...}" />
+            <marker date="1560736425547" expanded="true" signature="13195:13316" ph="{...}" />
+            <marker date="1560736425547" expanded="true" signature="13371:13604" ph="..." />
+            <marker date="1560736425547" expanded="true" signature="13754:13794" ph="  数据插入数据库 以数据库为准确数据 ..." />
+            <marker date="1560736425547" expanded="true" signature="13824:14004" ph="{...}" />
+            <marker date="1560736425547" expanded="true" signature="14017:14057" ph="  数据插入数据库 以数据库为准确数据 ..." />
+            <marker date="1560736425547" expanded="true" signature="14088:14671" ph="{...}" />
+            <marker date="1560736425547" expanded="true" signature="14127:14182" ph="select * fro... xxuan_isbn" />
+            <marker date="1560736425547" expanded="true" signature="14213:14372" ph="{...}" />
+            <marker date="1560736425547" expanded="true" signature="14385:14645" ph="{...}" />
+            <marker date="1560736425547" expanded="true" signature="14684:14710" ph="  插入数据 ..." />
+            <marker date="1560736425547" expanded="true" signature="14746:14861" ph="{...}" />
+            <marker date="1560736425547" expanded="true" signature="14874:14904" ph=" 保存图片，ID命名 ..." />
+            <marker date="1560736425547" expanded="true" signature="14951:15710" ph="{...}" />
+            <marker date="1560736425547" expanded="true" signature="15094:15184" ph="{...}" />
+            <marker date="1560736425547" expanded="true" signature="15352:15386" ph="..." />
+            <marker date="1560736425547" expanded="true" signature="15751:16016" ph="{...}" />
+            <marker date="1560736425547" expanded="true" signature="15789:15850" ph="{...}" />
+            <marker date="1560736425547" expanded="true" signature="15857:15950" ph="{...}" />
+            <marker date="1560736425547" expanded="true" signature="16056:16637" ph="{...}" />
+            <marker date="1560736425547" expanded="true" signature="16348:16404" ph="..." />
+            <marker date="1560736425547" expanded="true" signature="16684:17277" ph="{...}" />
+            <marker date="1560736425547" expanded="true" signature="16982:17160" ph="..." />
+            <marker date="1560736425547" expanded="true" signature="17048:17097" ph="..." />
+            <marker date="1560736425547" expanded="true" signature="17103:17148" ph="..." />
+            <marker date="1560736425547" expanded="true" signature="17291:17565" ph="  ..." />
+            <marker date="1560736425547" expanded="true" signature="17595:29617" ph="{...}" />
+            <marker date="1560736425547" expanded="true" signature="17865:25055" ph="..." />
+            <marker date="1560736425547" expanded="true" signature="17892:24519" ph="..." />
+            <marker date="1560736425547" expanded="true" signature="24798:25045" ph="..." />
+            <marker date="1560736425547" expanded="true" signature="25161:25241" ph="{...}" />
+            <marker date="1560736425547" expanded="true" signature="25320:29610" ph="..." />
+            <marker date="1560736425547" expanded="true" signature="25470:28982" ph="..." />
+            <marker date="1560736425547" expanded="true" signature="29131:29149" ph="..." />
+            <marker date="1560736425547" expanded="true" signature="29647:29714" ph="{...}" />
+            <marker date="1560736425547" expanded="true" signature="29764:29828" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/123/0504060541/detailO1CN01FhmScL1qg2SXBGV4Q_!!1573475524.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/123/0504060541/detailO1CN01Hp75v11qg2SWwSVHN_!!1573475524.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/123/0504060541/detailO1CN01inrDpO1qg2SVMUyj8_!!1573475524.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/123/0504060541/detailO1CN01iXKktO1qg2SRkTOBY_!!1573475524.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/123/0504060541/detailO1CN01Q1X4rn1qg2SZbAjhD_!!1573475524.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/123/0504060541/detailO1CN012WfSg51qg2SWwS6Jr_!!1573475524.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/123/0504060541/detailO1CN019y2Bn31qg2SXxqxbr_!!1573475524.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/123/0504060541/detailO1CN0102zXjx1qg2SRkUSjX_!!1573475524.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/123/0504061317/O1CN01YHzh1r1qg2SSs6cQn_!!1573475524.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/123/0504060541/O1CN01AlxCaE1qg2SPiPs75_!!1573475524.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Image.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="44" column="3" lean-forward="false" selection-start-line="44" selection-start-column="3" selection-end-line="44" selection-end-column="3" />
+          <folding>
+            <marker date="1588477508320" expanded="false" signature="42:221" ph="..." />
+            <marker date="1588477508320" expanded="true" signature="226:14133" ph=" @method \Intervention\Image\Image backup(string $name = 'default')                                                                                                     Backups current image state as fallback for reset method under an optional name. Overwrites older state on every call, unless a different name is passed. ..." />
+            <marker date="1588477508320" expanded="true" signature="14160:20344" ph="{...}" />
+            <marker date="1588477508320" expanded="true" signature="14170:14250" ph=" Instance of current image driver ..." />
+            <marker date="1588477508320" expanded="true" signature="14284:14371" ph=" Image resource/object of current image processor ..." />
+            <marker date="1588477508320" expanded="true" signature="14403:14500" ph=" Array of Image resource backups of current image processor ..." />
+            <marker date="1588477508320" expanded="true" signature="14540:14606" ph=" Last image encoding result ..." />
+            <marker date="1588477508320" expanded="true" signature="14643:14756" ph=" Creates a new Image instance ..." />
+            <marker date="1588477508320" expanded="true" signature="14835:14909" ph="{...}" />
+            <marker date="1588477508320" expanded="true" signature="14918:15093" ph=" Magic method to catch all image calls ..." />
+            <marker date="1588477508320" expanded="true" signature="15141:15299" ph="{...}" />
+            <marker date="1588477508320" expanded="true" signature="15308:15465" ph=" Starts encoding of current image ..." />
+            <marker date="1588477508320" expanded="true" signature="15525:15601" ph="{...}" />
+            <marker date="1588477508320" expanded="true" signature="15610:15797" ph=" Saves encoded image in filesystem ..." />
+            <marker date="1588477508320" expanded="true" signature="15871:16553" ph="{...}" />
+            <marker date="1588477508320" expanded="true" signature="15968:16085" ph="..." />
+            <marker date="1588477508320" expanded="true" signature="16119:16187" ph="..." />
+            <marker date="1588477508320" expanded="true" signature="16323:16450" ph="..." />
+            <marker date="1588477508320" expanded="true" signature="16562:16706" ph=" Runs a given filter on current image ..." />
+            <marker date="1588477508320" expanded="true" signature="16768:16824" ph="{...}" />
+            <marker date="1588477508320" expanded="true" signature="16833:16932" ph=" Returns current image driver ..." />
+            <marker date="1588477508320" expanded="true" signature="16966:17008" ph="{...}" />
+            <marker date="1588477508320" expanded="true" signature="17017:17093" ph=" Sets current image driver ..." />
+            <marker date="1588477508320" expanded="true" signature="17149:17217" ph="{...}" />
+            <marker date="1588477508320" expanded="true" signature="17226:17302" ph=" Returns current image resource/obj ..." />
+            <marker date="1588477508320" expanded="true" signature="17334:17374" ph="{...}" />
+            <marker date="1588477508320" expanded="true" signature="17383:17457" ph=" Sets current image resource ..." />
+            <marker date="1588477508320" expanded="true" signature="17494:17558" ph="{...}" />
+            <marker date="1588477508320" expanded="true" signature="17567:17664" ph=" Returns current image backup ..." />
+            <marker date="1588477508320" expanded="true" signature="17710:18014" ph="{...}" />
+            <marker date="1588477508320" expanded="true" signature="17814:17968" ph="..." />
+            <marker date="1588477508320" expanded="true" signature="18023:18102" ph=" Returns all backups attached to image ..." />
+            <marker date="1588477508320" expanded="true" signature="18137:18180" ph="{...}" />
+            <marker date="1588477508320" expanded="true" signature="18189:18313" ph=" Sets current image backup ..." />
+            <marker date="1588477508320" expanded="true" signature="18370:18501" ph="{...}" />
+            <marker date="1588477508320" expanded="true" signature="18510:18608" ph=" Checks if named backup exists ..." />
+            <marker date="1588477508320" expanded="true" signature="18651:18719" ph="{...}" />
+            <marker date="1588477508320" expanded="true" signature="18728:18814" ph=" Checks if current image is already encoded ..." />
+            <marker date="1588477508320" expanded="true" signature="18848:18900" ph="{...}" />
+            <marker date="1588477508320" expanded="true" signature="18909:18995" ph=" Returns encoded image data of current image ..." />
+            <marker date="1588477508320" expanded="true" signature="19030:19073" ph="{...}" />
+            <marker date="1588477508320" expanded="true" signature="19082:19156" ph=" Sets encoded image buffer ..." />
+            <marker date="1588477508320" expanded="true" signature="19197:19265" ph="{...}" />
+            <marker date="1588477508320" expanded="true" signature="19274:19344" ph=" Calculates current image width ..." />
+            <marker date="1588477508320" expanded="true" signature="19377:19429" ph="{...}" />
+            <marker date="1588477508320" expanded="true" signature="19438:19497" ph=" Alias of getWidth() ..." />
+            <marker date="1588477508320" expanded="true" signature="19527:19573" ph="{...}" />
+            <marker date="1588477508320" expanded="true" signature="19582:19653" ph=" Calculates current image height ..." />
+            <marker date="1588477508320" expanded="true" signature="19687:19740" ph="{...}" />
+            <marker date="1588477508320" expanded="true" signature="19749:19807" ph=" Alias of getHeight ..." />
+            <marker date="1588477508320" expanded="true" signature="19838:19885" ph="{...}" />
+            <marker date="1588477508320" expanded="true" signature="19894:19952" ph=" Reads mime type ..." />
+            <marker date="1588477508320" expanded="true" signature="19981:20021" ph="{...}" />
+            <marker date="1588477508320" expanded="true" signature="20030:20120" ph=" Returns encoded image data in string conversion ..." />
+            <marker date="1588477508320" expanded="true" signature="20155:20198" ph="{...}" />
+            <marker date="1588477508320" expanded="true" signature="20207:20237" ph=" Cloning an image ..." />
+            <marker date="1588477508320" expanded="true" signature="20269:20342" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/123/0504061208/detail_O1CN01FhmScL1qg2SXBGV4Q_!!1573475524.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/123/0504061247/800x800_0.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/123/0504061247/800x800_1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/123/0504061247/800x800_2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/123/0504061247/800x800_3.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/123/0504061247/800x800_4.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/123/0504061247/800x800_5.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/123/0504061247/800x800_6.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/123/0504061247/800x800_7.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/123/0504061247/800x800_8.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/123/0504061247/800x800_9.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/123/0504061247/800x800_10.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/123/0504061247/800x800_11.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/123/0504061247/800x800_12.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/123/0504061247/800x800_13.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="35" column="53" lean-forward="false" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
+          <folding>
+            <marker date="1494927130000" expanded="true" signature="11:225" ph=" Make a string uppercase ..." />
+            <marker date="1494927130000" expanded="true" signature="265:476" ph=" Make a string lowercase ..." />
+            <marker date="1494927130000" expanded="true" signature="513:1436" ph=" Find the position of the first occurrence of a substring in a string ..." />
+            <marker date="1494927130000" expanded="true" signature="1496:2237" ph=" Find position of first occurrence of a case-insensitive string ..." />
+            <marker date="1494927130000" expanded="true" signature="2301:3268" ph=" Find the position of the last occurrence of a substring in a string ..." />
+            <marker date="1494927130000" expanded="true" signature="3329:4124" ph=" Find position of last occurrence of a case-insensitive string in a string ..." />
+            <marker date="1494927130000" expanded="true" signature="4189:4399" ph=" Reverse a string ..." />
+            <marker date="1494927130000" expanded="true" signature="4435:4828" ph=" Convert logical Hebrew text to visual text ..." />
+            <marker date="1494927130000" expanded="true" signature="4897:5315" ph=" Convert logical Hebrew text to visual text with newline conversion ..." />
+            <marker date="1494927130000" expanded="true" signature="5385:5728" ph=" Inserts HTML line breaks before all newlines in a string ..." />
+            <marker date="1494927130000" expanded="true" signature="5781:6278" ph=" Returns filename component of path ..." />
+            <marker date="1494927130000" expanded="true" signature="6330:7018" ph=" Returns directory name component of path ..." />
+            <marker date="1494927130000" expanded="true" signature="7066:7776" ph=" Returns information about a file path ..." />
+            <marker date="1494927130000" expanded="true" signature="7829:8158" ph=" Un-quotes a quoted string ..." />
+            <marker date="1494927130000" expanded="true" signature="8197:8457" ph=" Un-quote string quoted with &lt;function&gt;addcslashes&lt;/function&gt; ..." />
+            <marker date="1494927130000" expanded="true" signature="8497:9057" ph=" Find first occurrence of a string ..." />
+            <marker date="1494927130000" expanded="true" signature="9127:9712" ph=" Case-insensitive &lt;function&gt;strstr&lt;/function&gt; ..." />
+            <marker date="1494927130000" expanded="true" signature="9783:10425" ph=" Find the last occurrence of a character in a string ..." />
+            <marker date="1494927130000" expanded="true" signature="10473:10688" ph=" Randomly shuffles a string ..." />
+            <marker date="1494927130000" expanded="true" signature="10726:11279" ph=" Return information about words used in a string ..." />
+            <marker date="1494927130000" expanded="true" signature="11357:12030" ph=" Convert a string to an array ..." />
+            <marker date="1494927130000" expanded="true" signature="12088:12464" ph=" Search a string for any of a set of characters ..." />
+            <marker date="1494927130000" expanded="true" signature="12515:13463" ph=" Binary safe comparison of 2 strings from an offset, up to length characters ..." />
+            <marker date="1494927130000" expanded="true" signature="13568:13922" ph=" Locale based string comparison ..." />
+            <marker date="1494927130000" expanded="true" signature="13964:14475" ph=" Formats a number as a currency string ..." />
+            <marker date="1494927130000" expanded="true" signature="14526:15974" ph=" Return part of a string ..." />
+            <marker date="1494927130000" expanded="true" signature="16034:17168" ph=" Replace text within a portion of a string ..." />
+            <marker date="1494927130000" expanded="true" signature="17250:17475" ph=" Quote meta characters ..." />
+            <marker date="1494927130000" expanded="true" signature="17511:17736" ph=" Make a string's first character uppercase ..." />
+            <marker date="1494927130000" expanded="true" signature="17770:17983" ph=" Make a string's first character lowercase ..." />
+            <marker date="1494927130000" expanded="true" signature="18017:18298" ph=" Uppercase the first character of each word in a string ..." />
+            <marker date="1494927130000" expanded="true" signature="18361:18834" ph=" Translate certain characters ..." />
+            <marker date="1494927130000" expanded="true" signature="18878:19096" ph=" Quote string with slashes ..." />
+            <marker date="1494927130000" expanded="true" signature="19133:20515" ph=" Quote string with slashes in a C style ..." />
+            <marker date="1494927130000" expanded="true" signature="20564:21437" ph=" Strip whitespace (or other characters) from the end of a string. ..." />
+            <marker date="1494927130000" expanded="true" signature="21498:22454" ph=" Replace all occurrences of the search string with the replacement string ..." />
+            <marker date="1494927130000" expanded="true" signature="22531:23232" ph=" Case-insensitive version of &lt;function&gt;str_replace&lt;/function&gt;. ..." />
+            <marker date="1494927130000" expanded="true" signature="23310:23764" ph=" Repeat a string ..." />
+            <marker date="1494927130000" expanded="true" signature="23816:24553" ph=" Return information about characters used in a string ..." />
+            <marker date="1494927130000" expanded="true" signature="24608:24979" ph=" Split a string into smaller chunks ..." />
+            <marker date="1494927130000" expanded="true" signature="25049:25574" ph=" Strip whitespace (or other characters) from the beginning and end of a string ..." />
+            <marker date="1494927130000" expanded="true" signature="25634:26555" ph=" Strip whitespace (or other characters) from the beginning of a string ..." />
+            <marker date="1494927130000" expanded="true" signature="26616:27118" ph=" Strip HTML and PHP tags from a string ..." />
+            <marker date="1494927130000" expanded="true" signature="27179:27657" ph=" Calculate the similarity between two strings ..." />
+            <marker date="1494927130000" expanded="true" signature="27725:28638" ph=" Split a string by string ..." />
+            <marker date="1494927130000" expanded="true" signature="28702:29256" ph=" Join array elements with a string ..." />
+            <marker date="1494927130000" expanded="true" signature="29311:29866" ph=" &amp;Alias; &lt;function&gt;implode&lt;/function&gt; ..." />
+            <marker date="1494927130000" expanded="true" signature="29912:32065" ph=" Set locale information ..." />
+            <marker date="1494927130000" expanded="true" signature="32126:35686" ph=" Get numeric formatting information ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/123/0504061034/750x1000_1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/123/0504061034/750x1000_2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/123/0504061034/750x1000_3.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/123/0504061034/750x1000_4.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/123/0504061034/750x1000_0.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/123/0504061034/800x800_0.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/123/0504063349/750x1000_3.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/123/0504063349/800x800_4.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/123/0504063349/750x1000_4.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/123/0504063428/detail_750x1000_0.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/123/0504063428/800x800_0.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/123/0504063428/800x800_1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/123/0504063428/800x800_2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/123/0504063428/800x800_4.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/123/0504063428/800x800_3.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/123/0504063428/detail_750x1000_1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TestController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="124" column="37" lean-forward="false" selection-start-line="124" selection-start-column="29" selection-end-line="124" selection-end-column="37" />
+          <folding>
+            <marker date="1588586853677" expanded="true" signature="44:176" ph="..." />
+            <marker date="1588586853677" expanded="true" signature="217:70412" ph="{...}" />
+            <marker date="1588586853677" expanded="true" signature="247:290" ph="{...}" />
+            <marker date="1588586853677" expanded="true" signature="325:1763" ph="{...}" />
+            <marker date="1588586853677" expanded="true" signature="875:1700" ph="..." />
+            <marker date="1588586853677" expanded="true" signature="1718:1755" ph="..." />
+            <marker date="1588586853677" expanded="true" signature="1825:4130" ph="{...}" />
+            <marker date="1588586853677" expanded="true" signature="2093:2151" ph="{...}" />
+            <marker date="1588586853677" expanded="true" signature="2196:2422" ph="{...}" />
+            <marker date="1588586853677" expanded="true" signature="2490:3747" ph="..." />
+            <marker date="1588586853677" expanded="true" signature="3160:3442" ph="{...}" />
+            <marker date="1588586853677" expanded="true" signature="3301:3427" ph="..." />
+            <marker date="1588586853677" expanded="true" signature="3486:3738" ph="{...}" />
+            <marker date="1588586853677" expanded="true" signature="3854:4061" ph="..." />
+            <marker date="1588586853677" expanded="true" signature="3908:4051" ph="..." />
+            <marker date="1588586853677" expanded="true" signature="3960:4037" ph="..." />
+            <marker date="1588586853677" expanded="true" signature="4194:5136" ph="{...}" />
+            <marker date="1588586853677" expanded="true" signature="4235:5129" ph="..." />
+            <marker date="1588586853677" expanded="true" signature="4328:5119" ph="..." />
+            <marker date="1588586853677" expanded="true" signature="4380:5105" ph="..." />
+            <marker date="1588586853677" expanded="true" signature="4440:4747" ph="..." />
+            <marker date="1588586853677" expanded="true" signature="4753:5046" ph="..." />
+            <marker date="1588586853677" expanded="true" signature="5187:5275" ph="{...}" />
+            <marker date="1588586853677" expanded="true" signature="5343:7600" ph="{...}" />
+            <marker date="1588586853677" expanded="true" signature="5507:7535" ph="..." />
+            <marker date="1588586853677" expanded="true" signature="5522:7534" ph="..." />
+            <marker date="1588586853677" expanded="true" signature="5573:5665" ph="..." />
+            <marker date="1588586853677" expanded="true" signature="5574:5664" ph="..." />
+            <marker date="1588586853677" expanded="true" signature="5694:7523" ph="..." />
+            <marker date="1588586853677" expanded="true" signature="7608:70147" ph="..." />
+            <marker date="1588586853677" expanded="true" signature="70166:70408" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/DataList.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2314">
+          <caret line="91" column="51" lean-forward="false" selection-start-line="91" selection-start-column="51" selection-end-line="91" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
